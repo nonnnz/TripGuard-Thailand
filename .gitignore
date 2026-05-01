@@ -79,6 +79,7 @@ apps/etl/hand-data/*.json
 apps/etl/hand-data/*.csv
 
 *.md
+!README.md
 *.csv
 *.json
 *.sql
