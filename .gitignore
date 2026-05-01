@@ -86,3 +86,5 @@ apps/etl/hand-data/*.csv
 *.db
 
 .agents
+
+!apps/api/src/mocks/*

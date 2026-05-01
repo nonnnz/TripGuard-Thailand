@@ -1,0 +1,324 @@
+{
+  "season": {
+    "current": "cool",
+    "label": "Cool Season",
+    "monthsRange": "Nov-Feb",
+    "recommendation": "Great for outdoor routes and coastal trips."
+  },
+  "provinces": [
+    {
+      "id": 10,
+      "nameTh": "Bangkok",
+      "nameEn": "Bangkok",
+      "region": "central",
+      "isSecondary": false
+    },
+    {
+      "id": 57,
+      "nameTh": "Chiang Rai",
+      "nameEn": "Chiang Rai",
+      "region": "north",
+      "isSecondary": true
+    },
+    {
+      "id": 77,
+      "nameTh": "Prachuap Khiri Khan",
+      "nameEn": "Prachuap Khiri Khan",
+      "region": "west",
+      "isSecondary": false
+    },
+    {
+      "id": 85,
+      "nameTh": "Ranong",
+      "nameEn": "Ranong",
+      "region": "south",
+      "isSecondary": true
+    }
+  ],
+  "facilities": [
+    {
+      "id": "f1",
+      "provinceId": 10,
+      "facilityType": "wheelchair-ramp",
+      "name": "Wheelchair Ramp"
+    },
+    {
+      "id": "f2",
+      "provinceId": 77,
+      "facilityType": "accessible-toilet",
+      "name": "Accessible Toilet"
+    },
+    {
+      "id": "f3",
+      "provinceId": 85,
+      "facilityType": "braille-signage",
+      "name": "Braille Signage"
+    }
+  ],
+  "places": [
+    {
+      "id": "mock:place:ao-bo-thong-lang",
+      "sourceId": "mock-001",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Ao Bo Thong Lang",
+      "nameEn": "Ao Bo Thong Lang",
+      "categoryId": 3,
+      "categoryName": "Attraction",
+      "introduction": "Quiet coastal bay with low crowd and stable local trust signals.",
+      "latitude": 11.7842,
+      "longitude": 99.7916,
+      "provinceId": 77,
+      "province": "Prachuap Khiri Khan",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 260,
+      "shaName": "SHA Plus",
+      "destinationId": "mock:dest:ao-bo-thong-lang",
+      "destination": {
+        "id": "mock:dest:ao-bo-thong-lang",
+        "province": "Prachuap Khiri Khan",
+        "trustScore": 0.81,
+        "crowdScore": 0.34,
+        "seasonFitScore": 0.84,
+        "accessibilityScore": 0.72,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "mock:place:pan-nam-ron",
+      "sourceId": "mock-002",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Pan Nam Ron",
+      "nameEn": "Pan Nam Ron",
+      "categoryId": 3,
+      "categoryName": "Attraction",
+      "introduction": "Warm spring route with medium crowd and strong local value.",
+      "latitude": 9.9529,
+      "longitude": 98.63,
+      "provinceId": 85,
+      "province": "Ranong",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551244072-5d12893278ab?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 150,
+      "shaName": null,
+      "destinationId": "mock:dest:pan-nam-ron",
+      "destination": {
+        "id": "mock:dest:pan-nam-ron",
+        "province": "Ranong",
+        "trustScore": 0.74,
+        "crowdScore": 0.46,
+        "seasonFitScore": 0.76,
+        "accessibilityScore": 0.58,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "mock:place:chiang-rai-night-market",
+      "sourceId": "mock-003",
+      "kind": "EVENT",
+      "status": "approved",
+      "name": "Chiang Rai Night Market",
+      "nameEn": "Chiang Rai Night Market",
+      "categoryId": 9,
+      "categoryName": "Event",
+      "introduction": "Local craft and street food market in city center.",
+      "latitude": 19.9072,
+      "longitude": 99.8309,
+      "provinceId": 57,
+      "province": "Chiang Rai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 310,
+      "shaName": null,
+      "destinationId": "mock:dest:chiang-rai-night-market",
+      "destination": {
+        "id": "mock:dest:chiang-rai-night-market",
+        "province": "Chiang Rai",
+        "trustScore": 0.69,
+        "crowdScore": 0.61,
+        "seasonFitScore": 0.71,
+        "accessibilityScore": 0.55,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "mock:place:old-town-food-court",
+      "sourceId": "mock-004",
+      "kind": "RESTAURANT",
+      "status": "approved",
+      "name": "Old Town Food Court",
+      "nameEn": "Old Town Food Court",
+      "categoryId": 7,
+      "categoryName": "Restaurant",
+      "introduction": "Popular local food court with fair pricing references.",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 540,
+      "shaName": "SHA",
+      "destinationId": "mock:dest:old-town-food-court",
+      "destination": {
+        "id": "mock:dest:old-town-food-court",
+        "province": "Bangkok",
+        "trustScore": 0.78,
+        "crowdScore": 0.57,
+        "seasonFitScore": 0.73,
+        "accessibilityScore": 0.68,
+        "isSecondaryCity": false
+      }
+    }
+  ],
+  "fairPrice": {
+    "mock:place:ao-bo-thong-lang": {
+      "avgMin": 120,
+      "avgMax": 220,
+      "p25Min": 90,
+      "p75Max": 260,
+      "sampleCount": 40,
+      "currency": "THB"
+    },
+    "mock:place:pan-nam-ron": {
+      "avgMin": 80,
+      "avgMax": 180,
+      "p25Min": 60,
+      "p75Max": 210,
+      "sampleCount": 28,
+      "currency": "THB"
+    },
+    "mock:place:chiang-rai-night-market": {
+      "avgMin": 70,
+      "avgMax": 160,
+      "p25Min": 50,
+      "p75Max": 190,
+      "sampleCount": 50,
+      "currency": "THB"
+    },
+    "mock:place:old-town-food-court": {
+      "avgMin": 100,
+      "avgMax": 240,
+      "p25Min": 80,
+      "p75Max": 290,
+      "sampleCount": 90,
+      "currency": "THB"
+    }
+  },
+  "culturalContext": {
+    "mock:place:ao-bo-thong-lang": {
+      "context": "Cash preferred in small shops. Keep beach clean.",
+      "dos": ["Bring small cash notes", "Ask locals before drone use"],
+      "donts": ["Do not leave trash on beach"]
+    },
+    "mock:place:pan-nam-ron": {
+      "context": "Respect quiet hours near hot spring zones.",
+      "dos": ["Use shared pools politely"],
+      "donts": ["Avoid loud music at night"]
+    },
+    "mock:place:chiang-rai-night-market": {
+      "context": "Bargaining is acceptable in craft stalls.",
+      "dos": ["Ask vendor before photo"],
+      "donts": ["Do not block shop entrance"]
+    },
+    "mock:place:old-town-food-court": {
+      "context": "Queue first then pay at most stalls.",
+      "dos": ["Return trays after eating"],
+      "donts": ["Do not reserve tables for long"]
+    }
+  },
+  "graph": {
+    "mock:place:ao-bo-thong-lang": {
+      "nodes": [
+        { "id": "mock:place:ao-bo-thong-lang", "label": "Ao Bo Thong Lang" },
+        { "id": "mock:place:pan-nam-ron", "label": "Pan Nam Ron" },
+        {
+          "id": "mock:place:old-town-food-court",
+          "label": "Old Town Food Court"
+        }
+      ],
+      "edges": [
+        {
+          "source": "mock:place:ao-bo-thong-lang",
+          "target": "mock:place:pan-nam-ron",
+          "relation": "DETOUR_TO",
+          "distanceKm": 140,
+          "travelTimeMin": 180,
+          "confidence": 0.78
+        },
+        {
+          "source": "mock:place:ao-bo-thong-lang",
+          "target": "mock:place:old-town-food-court",
+          "relation": "SIMILAR_TO",
+          "confidence": 0.58
+        }
+      ]
+    },
+    "mock:place:pan-nam-ron": {
+      "nodes": [
+        { "id": "mock:place:pan-nam-ron", "label": "Pan Nam Ron" },
+        { "id": "mock:place:ao-bo-thong-lang", "label": "Ao Bo Thong Lang" }
+      ],
+      "edges": [
+        {
+          "source": "mock:place:pan-nam-ron",
+          "target": "mock:place:ao-bo-thong-lang",
+          "relation": "DETOUR_TO",
+          "distanceKm": 140,
+          "travelTimeMin": 180,
+          "confidence": 0.75
+        }
+      ]
+    }
+  },
+  "routes": [
+    {
+      "id": "mock:route:coastal-calm-2d",
+      "name": "Coastal Calm 2D",
+      "distanceKm": 165,
+      "isHighlight": true,
+      "stops": [
+        {
+          "dayIndex": 1,
+          "stopOrder": 1,
+          "destination": {
+            "id": "mock:dest:ao-bo-thong-lang",
+            "name": "Ao Bo Thong Lang",
+            "nameEn": "Ao Bo Thong Lang",
+            "province": "Prachuap Khiri Khan",
+            "latitude": 11.7842,
+            "longitude": 99.7916,
+            "trustScore": 0.81
+          },
+          "tatPoi": {
+            "id": "mock:place:ao-bo-thong-lang",
+            "name": "Ao Bo Thong Lang",
+            "kind": "ATTRACTION",
+            "province": "Prachuap Khiri Khan",
+            "latitude": 11.7842,
+            "longitude": 99.7916
+          }
+        },
+        {
+          "dayIndex": 2,
+          "stopOrder": 1,
+          "destination": {
+            "id": "mock:dest:pan-nam-ron",
+            "name": "Pan Nam Ron",
+            "nameEn": "Pan Nam Ron",
+            "province": "Ranong",
+            "latitude": 9.9529,
+            "longitude": 98.63,
+            "trustScore": 0.74
+          },
+          "tatPoi": {
+            "id": "mock:place:pan-nam-ron",
+            "name": "Pan Nam Ron",
+            "kind": "ATTRACTION",
+            "province": "Ranong",
+            "latitude": 9.9529,
+            "longitude": 98.63
+          }
+        }
+      ]
+    }
+  ]
+}

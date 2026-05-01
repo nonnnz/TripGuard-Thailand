@@ -1,0 +1,2006 @@
+{
+  "seasons": [
+    {
+      "id": "s1",
+      "current": "cool",
+      "label": "Cool Season",
+      "monthsRange": "Nov-Feb",
+      "recommendation": "High visibility for diving and mountain trekking."
+    },
+    {
+      "id": "s2",
+      "current": "summer",
+      "label": "Summer Season",
+      "monthsRange": "Mar-May",
+      "recommendation": "Perfect for water festivals and island hopping."
+    },
+    {
+      "id": "s3",
+      "current": "rainy",
+      "label": "Rainy Season",
+      "monthsRange": "Jun-Oct",
+      "recommendation": "Ideal for waterfalls and lush green landscapes."
+    },
+    {
+      "id": "s4",
+      "current": "peak",
+      "label": "Peak Festival",
+      "monthsRange": "Dec-Jan",
+      "recommendation": "Busy period with major cultural celebrations."
+    }
+  ],
+  "provinces": [
+    {
+      "id": 10,
+      "nameTh": "กรุงเทพมหานคร",
+      "nameEn": "Bangkok",
+      "region": "central",
+      "isSecondary": false
+    },
+    {
+      "id": 50,
+      "nameTh": "เชียงใหม่",
+      "nameEn": "Chiang Mai",
+      "region": "north",
+      "isSecondary": false
+    },
+    {
+      "id": 57,
+      "nameTh": "เชียงราย",
+      "nameEn": "Chiang Rai",
+      "region": "north",
+      "isSecondary": true
+    },
+    {
+      "id": 55,
+      "nameTh": "น่าน",
+      "nameEn": "Nan",
+      "region": "north",
+      "isSecondary": true
+    },
+    {
+      "id": 71,
+      "nameTh": "กาญจนบุรี",
+      "nameEn": "Kanchanaburi",
+      "region": "west",
+      "isSecondary": true
+    },
+    {
+      "id": 64,
+      "nameTh": "สุโขทัย",
+      "nameEn": "Sukhothai",
+      "region": "north",
+      "isSecondary": true
+    },
+    {
+      "id": 20,
+      "nameTh": "ชลบุรี",
+      "nameEn": "Chonburi",
+      "region": "east",
+      "isSecondary": false
+    },
+    {
+      "id": 81,
+      "nameTh": "กระบี่",
+      "nameEn": "Krabi",
+      "region": "south",
+      "isSecondary": true
+    },
+    {
+      "id": 30,
+      "nameTh": "นครราชสีมา",
+      "nameEn": "Nakhon Ratchasima",
+      "region": "northeast",
+      "isSecondary": false
+    },
+    {
+      "id": 83,
+      "nameTh": "ภูเก็ต",
+      "nameEn": "Phuket",
+      "region": "south",
+      "isSecondary": false
+    },
+    {
+      "id": 84,
+      "nameTh": "สุราษฎร์ธานี",
+      "nameEn": "Surat Thani",
+      "region": "south",
+      "isSecondary": true
+    }
+  ],
+  "facilities": [
+    {
+      "id": "f1",
+      "provinceId": 10,
+      "facilityType": "wheelchair-ramp",
+      "name": "Standard Ramp"
+    },
+    {
+      "id": "f2",
+      "provinceId": 83,
+      "facilityType": "braille-signage",
+      "name": "Audio Guide"
+    },
+    {
+      "id": "f3",
+      "provinceId": 50,
+      "facilityType": "accessible-toilet",
+      "name": "Universal Design Toilet"
+    }
+  ],
+  "places": [
+    {
+      "id": "p1",
+      "sourceId": "src-001",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Grand Palace",
+      "nameEn": "Grand Palace",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Historic royal residence and temple complex in the heart of Bangkok.",
+      "latitude": 13.75,
+      "longitude": 100.4913,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://static.wixstatic.com/media/2cc94a_f41bf7cbf0d34a2faaf7f0e27aabb3b3~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2cc94a_f41bf7cbf0d34a2faaf7f0e27aabb3b3~mv2.jpg",
+      "viewerCount": 5500,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p1",
+      "destination": {
+        "id": "dest-p1",
+        "province": "Bangkok",
+        "trustScore": 0.98,
+        "crowdScore": 0.99,
+        "seasonFitScore": 0.85,
+        "accessibilityScore": 0.8,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p2",
+      "sourceId": "src-002",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Wat Arun",
+      "nameEn": "Wat Arun",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Iconic riverside temple known for its towering spires.",
+      "latitude": 13.7437,
+      "longitude": 100.4889,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1583267746534-206cddbfb704?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 4200,
+      "shaName": "SHA",
+      "destinationId": "dest-p2",
+      "destination": {
+        "id": "dest-p2",
+        "province": "Bangkok",
+        "trustScore": 0.95,
+        "crowdScore": 0.88,
+        "seasonFitScore": 0.9,
+        "accessibilityScore": 0.75,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p3",
+      "sourceId": "src-003",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Mandarin Oriental",
+      "nameEn": "Mandarin Oriental",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Luxury historic hotel offering unparalleled riverside views.",
+      "latitude": 13.7236,
+      "longitude": 100.5146,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 3100,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p3",
+      "destination": {
+        "id": "dest-p3",
+        "province": "Bangkok",
+        "trustScore": 0.99,
+        "crowdScore": 0.6,
+        "seasonFitScore": 0.95,
+        "accessibilityScore": 0.95,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p4",
+      "sourceId": "src-004",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Jim Thompson House",
+      "nameEn": "Jim Thompson House",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Museum containing the art collection of the American silk entrepreneur.",
+      "latitude": 13.7493,
+      "longitude": 100.5284,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1513511100612-42db9d2557cd?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2800,
+      "shaName": "SHA",
+      "destinationId": "dest-p4",
+      "destination": {
+        "id": "dest-p4",
+        "province": "Bangkok",
+        "trustScore": 0.92,
+        "crowdScore": 0.75,
+        "seasonFitScore": 0.88,
+        "accessibilityScore": 0.65,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p5",
+      "sourceId": "src-005",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "The Siam Hotel",
+      "nameEn": "The Siam",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Urban luxury resort showcasing Art Deco design.",
+      "latitude": 13.7788,
+      "longitude": 100.5052,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1500,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p5",
+      "destination": {
+        "id": "dest-p5",
+        "province": "Bangkok",
+        "trustScore": 0.96,
+        "crowdScore": 0.4,
+        "seasonFitScore": 0.92,
+        "accessibilityScore": 0.9,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p6",
+      "sourceId": "src-006",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Asiatique The Riverfront",
+      "nameEn": "Asiatique",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Large open-air night market and entertainment complex.",
+      "latitude": 13.7042,
+      "longitude": 100.5032,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1523592121529-f6dde35f079e?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 4500,
+      "shaName": "SHA",
+      "destinationId": "dest-p6",
+      "destination": {
+        "id": "dest-p6",
+        "province": "Bangkok",
+        "trustScore": 0.85,
+        "crowdScore": 0.9,
+        "seasonFitScore": 0.82,
+        "accessibilityScore": 0.85,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p7",
+      "sourceId": "src-007",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Capella Bangkok",
+      "nameEn": "Capella",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Boutique ultra-luxury hotel situated on the Chao Phraya River.",
+      "latitude": 13.7126,
+      "longitude": 100.5103,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1200,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p7",
+      "destination": {
+        "id": "dest-p7",
+        "province": "Bangkok",
+        "trustScore": 0.98,
+        "crowdScore": 0.35,
+        "seasonFitScore": 0.96,
+        "accessibilityScore": 0.95,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p8",
+      "sourceId": "src-008",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Mahanakhon SkyWalk",
+      "nameEn": "SkyWalk",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Thailand's highest observation deck with a glass tray floor.",
+      "latitude": 13.7235,
+      "longitude": 100.5284,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1508009603885-50c143901f62?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 5100,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p8",
+      "destination": {
+        "id": "dest-p8",
+        "province": "Bangkok",
+        "trustScore": 0.91,
+        "crowdScore": 0.95,
+        "seasonFitScore": 0.8,
+        "accessibilityScore": 0.99,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p9",
+      "sourceId": "src-009",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Chatrium Riverside",
+      "nameEn": "Chatrium",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Modern hotel featuring spacious suites with river views.",
+      "latitude": 13.7107,
+      "longitude": 100.5085,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551882547-ff40c0d13c11?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2400,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p9",
+      "destination": {
+        "id": "dest-p9",
+        "province": "Bangkok",
+        "trustScore": 0.89,
+        "crowdScore": 0.7,
+        "seasonFitScore": 0.88,
+        "accessibilityScore": 0.9,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p10",
+      "sourceId": "src-010",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Erawan Shrine",
+      "nameEn": "Erawan Shrine",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Famous Hindu shrine that attracts thousands of daily worshippers.",
+      "latitude": 13.7444,
+      "longitude": 100.5404,
+      "provinceId": 10,
+      "province": "Bangkok",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1558001091-a67b57c4cf6d?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 6000,
+      "shaName": null,
+      "destinationId": "dest-p10",
+      "destination": {
+        "id": "dest-p10",
+        "province": "Bangkok",
+        "trustScore": 0.9,
+        "crowdScore": 0.99,
+        "seasonFitScore": 0.75,
+        "accessibilityScore": 0.85,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p11",
+      "sourceId": "src-011",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "White Temple",
+      "nameEn": "Wat Rong Khun",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Contemporary, unconventional art exhibit in the style of a Buddhist temple.",
+      "latitude": 19.8243,
+      "longitude": 99.7631,
+      "provinceId": 57,
+      "province": "Chiang Rai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 3500,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p11",
+      "destination": {
+        "id": "dest-p11",
+        "province": "Chiang Rai",
+        "trustScore": 0.94,
+        "crowdScore": 0.85,
+        "seasonFitScore": 0.86,
+        "accessibilityScore": 0.7,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p12",
+      "sourceId": "src-012",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Le Meridien Chiang Rai",
+      "nameEn": "Le Meridien CR",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Luxury resort located along the serene Kok River.",
+      "latitude": 19.9234,
+      "longitude": 99.851,
+      "provinceId": 57,
+      "province": "Chiang Rai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1100,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p12",
+      "destination": {
+        "id": "dest-p12",
+        "province": "Chiang Rai",
+        "trustScore": 0.9,
+        "crowdScore": 0.5,
+        "seasonFitScore": 0.89,
+        "accessibilityScore": 0.85,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p13",
+      "sourceId": "src-013",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Doi Inthanon",
+      "nameEn": "Doi Inthanon",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "The highest peak in Thailand, featuring trails and royal pagodas.",
+      "latitude": 18.5883,
+      "longitude": 98.4861,
+      "provinceId": 50,
+      "province": "Chiang Mai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 4200,
+      "shaName": "SHA",
+      "destinationId": "dest-p13",
+      "destination": {
+        "id": "dest-p13",
+        "province": "Chiang Mai",
+        "trustScore": 0.92,
+        "crowdScore": 0.65,
+        "seasonFitScore": 0.95,
+        "accessibilityScore": 0.6,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p14",
+      "sourceId": "src-014",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Four Seasons Resort",
+      "nameEn": "Four Seasons CM",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Opulent villas surrounded by working rice paddies.",
+      "latitude": 18.9248,
+      "longitude": 98.9322,
+      "provinceId": 50,
+      "province": "Chiang Mai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542314831-c6a4d27ece50?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1800,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p14",
+      "destination": {
+        "id": "dest-p14",
+        "province": "Chiang Mai",
+        "trustScore": 0.97,
+        "crowdScore": 0.3,
+        "seasonFitScore": 0.92,
+        "accessibilityScore": 0.9,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p15",
+      "sourceId": "src-015",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Bo Kluea Rock Salt",
+      "nameEn": "Bo Kluea",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Ancient rock salt extraction village deep in the mountains.",
+      "latitude": 19.1492,
+      "longitude": 101.1578,
+      "provinceId": 55,
+      "province": "Nan",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1628135894121-8f553f1c5d0f?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 850,
+      "shaName": null,
+      "destinationId": "dest-p15",
+      "destination": {
+        "id": "dest-p15",
+        "province": "Nan",
+        "trustScore": 0.85,
+        "crowdScore": 0.4,
+        "seasonFitScore": 0.88,
+        "accessibilityScore": 0.5,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p16",
+      "sourceId": "src-016",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Sapan Retreat",
+      "nameEn": "Sapan Retreat",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Rustic and calm homestay surrounded by foggy valleys.",
+      "latitude": 19.1865,
+      "longitude": 101.1963,
+      "provinceId": 55,
+      "province": "Nan",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 600,
+      "shaName": null,
+      "destinationId": "dest-p16",
+      "destination": {
+        "id": "dest-p16",
+        "province": "Nan",
+        "trustScore": 0.88,
+        "crowdScore": 0.25,
+        "seasonFitScore": 0.95,
+        "accessibilityScore": 0.4,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p17",
+      "sourceId": "src-017",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Death Railway",
+      "nameEn": "Death Railway",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Historic WWII railway cutting through rugged mountain passes.",
+      "latitude": 14.1166,
+      "longitude": 99.15,
+      "provinceId": 71,
+      "province": "Kanchanaburi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1602934585418-f588bea4215c?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2100,
+      "shaName": "SHA",
+      "destinationId": "dest-p17",
+      "destination": {
+        "id": "dest-p17",
+        "province": "Kanchanaburi",
+        "trustScore": 0.87,
+        "crowdScore": 0.7,
+        "seasonFitScore": 0.8,
+        "accessibilityScore": 0.45,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p18",
+      "sourceId": "src-018",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "The FloatHouse",
+      "nameEn": "FloatHouse River Kwai",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Boutique floating villas on the River Kwai.",
+      "latitude": 14.2858,
+      "longitude": 98.9958,
+      "provinceId": 71,
+      "province": "Kanchanaburi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1560662105-57f8ad6ae2d1?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1400,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p18",
+      "destination": {
+        "id": "dest-p18",
+        "province": "Kanchanaburi",
+        "trustScore": 0.91,
+        "crowdScore": 0.45,
+        "seasonFitScore": 0.85,
+        "accessibilityScore": 0.3,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p19",
+      "sourceId": "src-019",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Sukhothai Historical Park",
+      "nameEn": "Sukhothai Park",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "UNESCO ruins of the first capital of Siam.",
+      "latitude": 17.0187,
+      "longitude": 99.7045,
+      "provinceId": 64,
+      "province": "Sukhothai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1536484351658-0050ee5b0e89?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1900,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p19",
+      "destination": {
+        "id": "dest-p19",
+        "province": "Sukhothai",
+        "trustScore": 0.95,
+        "crowdScore": 0.35,
+        "seasonFitScore": 0.9,
+        "accessibilityScore": 0.75,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p20",
+      "sourceId": "src-020",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Sriwilai Sukhothai",
+      "nameEn": "Sriwilai Resort",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Elegant resort offering vistas of the nearby historical ruins.",
+      "latitude": 17.0123,
+      "longitude": 99.7156,
+      "provinceId": 64,
+      "province": "Sukhothai",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 800,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p20",
+      "destination": {
+        "id": "dest-p20",
+        "province": "Sukhothai",
+        "trustScore": 0.9,
+        "crowdScore": 0.3,
+        "seasonFitScore": 0.88,
+        "accessibilityScore": 0.8,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p21",
+      "sourceId": "src-021",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Sanctuary of Truth",
+      "nameEn": "Sanctuary Truth",
+      "categoryId": 1,
+      "categoryName": "culture",
+      "introduction": "Massive wooden structure filled with intricate Hindu and Buddhist carvings.",
+      "latitude": 12.9727,
+      "longitude": 100.8891,
+      "provinceId": 20,
+      "province": "Chonburi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1543161048-c840212a4501?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2700,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p21",
+      "destination": {
+        "id": "dest-p21",
+        "province": "Chonburi",
+        "trustScore": 0.89,
+        "crowdScore": 0.65,
+        "seasonFitScore": 0.84,
+        "accessibilityScore": 0.6,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p22",
+      "sourceId": "src-022",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Cape Dara Resort",
+      "nameEn": "Cape Dara",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "5-star beachfront resort in North Pattaya.",
+      "latitude": 12.9566,
+      "longitude": 100.8845,
+      "provinceId": 20,
+      "province": "Chonburi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 3200,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p22",
+      "destination": {
+        "id": "dest-p22",
+        "province": "Chonburi",
+        "trustScore": 0.88,
+        "crowdScore": 0.8,
+        "seasonFitScore": 0.86,
+        "accessibilityScore": 0.85,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p23",
+      "sourceId": "src-023",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Maya Bay",
+      "nameEn": "Maya Bay",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Stunning cove sheltered by 100-meter high cliffs.",
+      "latitude": 7.6766,
+      "longitude": 98.7656,
+      "provinceId": 81,
+      "province": "Krabi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 5500,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p23",
+      "destination": {
+        "id": "dest-p23",
+        "province": "Krabi",
+        "trustScore": 0.93,
+        "crowdScore": 0.98,
+        "seasonFitScore": 0.92,
+        "accessibilityScore": 0.25,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p24",
+      "sourceId": "src-024",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Rayavadee",
+      "nameEn": "Rayavadee",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Luxury jungle resort accessed only by boat at Railay Beach.",
+      "latitude": 8.0116,
+      "longitude": 98.8385,
+      "provinceId": 81,
+      "province": "Krabi",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1900,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p24",
+      "destination": {
+        "id": "dest-p24",
+        "province": "Krabi",
+        "trustScore": 0.96,
+        "crowdScore": 0.4,
+        "seasonFitScore": 0.94,
+        "accessibilityScore": 0.35,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p25",
+      "sourceId": "src-025",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Khao Yai National Park",
+      "nameEn": "Khao Yai",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Vast nature reserve known for wild elephants and cascading waterfalls.",
+      "latitude": 14.4392,
+      "longitude": 101.3725,
+      "provinceId": 30,
+      "province": "Nakhon Ratchasima",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1552554763-71822cba2b52?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 3800,
+      "shaName": "SHA",
+      "destinationId": "dest-p25",
+      "destination": {
+        "id": "dest-p25",
+        "province": "Nakhon Ratchasima",
+        "trustScore": 0.91,
+        "crowdScore": 0.6,
+        "seasonFitScore": 0.85,
+        "accessibilityScore": 0.55,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p26",
+      "sourceId": "src-026",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Muthi Maya Forest Pool Villa",
+      "nameEn": "Muthi Maya",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Exclusive pool villas blending seamlessly with the forest backdrop.",
+      "latitude": 14.5265,
+      "longitude": 101.4111,
+      "provinceId": 30,
+      "province": "Nakhon Ratchasima",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1100,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p26",
+      "destination": {
+        "id": "dest-p26",
+        "province": "Nakhon Ratchasima",
+        "trustScore": 0.92,
+        "crowdScore": 0.35,
+        "seasonFitScore": 0.88,
+        "accessibilityScore": 0.7,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p27",
+      "sourceId": "src-027",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Promthep Cape",
+      "nameEn": "Promthep",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "The most famous and photographed sunset viewpoint in Phuket.",
+      "latitude": 7.7588,
+      "longitude": 98.3039,
+      "provinceId": 83,
+      "province": "Phuket",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 4900,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p27",
+      "destination": {
+        "id": "dest-p27",
+        "province": "Phuket",
+        "trustScore": 0.86,
+        "crowdScore": 0.95,
+        "seasonFitScore": 0.89,
+        "accessibilityScore": 0.65,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p28",
+      "sourceId": "src-028",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "Sri Panwa",
+      "nameEn": "Sri Panwa",
+      "categoryId": 4,
+      "categoryName": "place",
+      "introduction": "Luxury pool villa resort perched high atop Cape Panwa.",
+      "latitude": 7.8016,
+      "longitude": 98.4069,
+      "provinceId": 83,
+      "province": "Phuket",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2200,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p28",
+      "destination": {
+        "id": "dest-p28",
+        "province": "Phuket",
+        "trustScore": 0.95,
+        "crowdScore": 0.5,
+        "seasonFitScore": 0.93,
+        "accessibilityScore": 0.8,
+        "isSecondaryCity": false
+      }
+    },
+    {
+      "id": "p29",
+      "sourceId": "src-029",
+      "kind": "ATTRACTION",
+      "status": "approved",
+      "name": "Khao Sok National Park",
+      "nameEn": "Khao Sok",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Ancient rainforest featuring towering limestone karst formations.",
+      "latitude": 8.9105,
+      "longitude": 98.5303,
+      "provinceId": 84,
+      "province": "Surat Thani",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1601614216834-c71c4c95f13b?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 2600,
+      "shaName": "SHA Plus",
+      "destinationId": "dest-p29",
+      "destination": {
+        "id": "dest-p29",
+        "province": "Surat Thani",
+        "trustScore": 0.94,
+        "crowdScore": 0.45,
+        "seasonFitScore": 0.9,
+        "accessibilityScore": 0.3,
+        "isSecondaryCity": true
+      }
+    },
+    {
+      "id": "p30",
+      "sourceId": "src-030",
+      "kind": "STAYS",
+      "status": "approved",
+      "name": "500 Rai Floating Resort",
+      "nameEn": "500 Rai",
+      "categoryId": 3,
+      "categoryName": "nature",
+      "introduction": "Remote overwater bungalows on Cheow Lan Lake.",
+      "latitude": 8.9715,
+      "longitude": 98.6369,
+      "provinceId": 84,
+      "province": "Surat Thani",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=70",
+      "viewerCount": 1700,
+      "shaName": "SHA Extra Plus",
+      "destinationId": "dest-p30",
+      "destination": {
+        "id": "dest-p30",
+        "province": "Surat Thani",
+        "trustScore": 0.91,
+        "crowdScore": 0.35,
+        "seasonFitScore": 0.92,
+        "accessibilityScore": 0.15,
+        "isSecondaryCity": true
+      }
+    }
+  ],
+  "fairPrice": {
+    "p1": {
+      "avgMin": 500,
+      "avgMax": 500,
+      "sampleCount": 1500,
+      "currency": "THB"
+    },
+    "p2": {
+      "avgMin": 100,
+      "avgMax": 100,
+      "sampleCount": 1200,
+      "currency": "THB"
+    },
+    "p3": {
+      "avgMin": 15000,
+      "avgMax": 45000,
+      "sampleCount": 350,
+      "currency": "THB"
+    },
+    "p4": {
+      "avgMin": 200,
+      "avgMax": 200,
+      "sampleCount": 800,
+      "currency": "THB"
+    },
+    "p5": {
+      "avgMin": 18000,
+      "avgMax": 50000,
+      "sampleCount": 120,
+      "currency": "THB"
+    },
+    "p6": {
+      "avgMin": 0,
+      "avgMax": 1500,
+      "sampleCount": 2000,
+      "currency": "THB"
+    },
+    "p7": {
+      "avgMin": 20000,
+      "avgMax": 60000,
+      "sampleCount": 90,
+      "currency": "THB"
+    },
+    "p8": {
+      "avgMin": 880,
+      "avgMax": 1080,
+      "sampleCount": 1400,
+      "currency": "THB"
+    },
+    "p9": {
+      "avgMin": 3500,
+      "avgMax": 8500,
+      "sampleCount": 600,
+      "currency": "THB"
+    },
+    "p10": {
+      "avgMin": 0,
+      "avgMax": 500,
+      "sampleCount": 2500,
+      "currency": "THB"
+    },
+    "p11": {
+      "avgMin": 100,
+      "avgMax": 100,
+      "sampleCount": 900,
+      "currency": "THB"
+    },
+    "p12": {
+      "avgMin": 4000,
+      "avgMax": 9000,
+      "sampleCount": 300,
+      "currency": "THB"
+    },
+    "p13": {
+      "avgMin": 300,
+      "avgMax": 300,
+      "sampleCount": 1100,
+      "currency": "THB"
+    },
+    "p14": {
+      "avgMin": 16000,
+      "avgMax": 40000,
+      "sampleCount": 200,
+      "currency": "THB"
+    },
+    "p15": {
+      "avgMin": 0,
+      "avgMax": 200,
+      "sampleCount": 400,
+      "currency": "THB"
+    },
+    "p16": {
+      "avgMin": 2500,
+      "avgMax": 6000,
+      "sampleCount": 150,
+      "currency": "THB"
+    },
+    "p17": {
+      "avgMin": 100,
+      "avgMax": 100,
+      "sampleCount": 850,
+      "currency": "THB"
+    },
+    "p18": {
+      "avgMin": 4500,
+      "avgMax": 8000,
+      "sampleCount": 220,
+      "currency": "THB"
+    },
+    "p19": {
+      "avgMin": 100,
+      "avgMax": 100,
+      "sampleCount": 600,
+      "currency": "THB"
+    },
+    "p20": {
+      "avgMin": 2000,
+      "avgMax": 4500,
+      "sampleCount": 180,
+      "currency": "THB"
+    },
+    "p21": {
+      "avgMin": 500,
+      "avgMax": 500,
+      "sampleCount": 950,
+      "currency": "THB"
+    },
+    "p22": {
+      "avgMin": 4500,
+      "avgMax": 12000,
+      "sampleCount": 400,
+      "currency": "THB"
+    },
+    "p23": {
+      "avgMin": 400,
+      "avgMax": 400,
+      "sampleCount": 2100,
+      "currency": "THB"
+    },
+    "p24": {
+      "avgMin": 18000,
+      "avgMax": 45000,
+      "sampleCount": 160,
+      "currency": "THB"
+    },
+    "p25": {
+      "avgMin": 400,
+      "avgMax": 400,
+      "sampleCount": 1300,
+      "currency": "THB"
+    },
+    "p26": {
+      "avgMin": 8000,
+      "avgMax": 15000,
+      "sampleCount": 110,
+      "currency": "THB"
+    },
+    "p27": { "avgMin": 0, "avgMax": 0, "sampleCount": 1800, "currency": "THB" },
+    "p28": {
+      "avgMin": 14000,
+      "avgMax": 35000,
+      "sampleCount": 250,
+      "currency": "THB"
+    },
+    "p29": {
+      "avgMin": 300,
+      "avgMax": 300,
+      "sampleCount": 800,
+      "currency": "THB"
+    },
+    "p30": {
+      "avgMin": 12000,
+      "avgMax": 25000,
+      "sampleCount": 140,
+      "currency": "THB"
+    }
+  },
+  "culturalContext": {
+    "p1": {
+      "context": "Strict dress code enforced.",
+      "dos": ["Wear long pants/skirts", "Cover shoulders"],
+      "donts": ["Wear ripped jeans", "Wear sleeveless shirts"],
+      "path": ["/p1-1.png", "/p1-2.png", "/p1-3.png"]
+    },
+    "p2": {
+      "context": "Strict dress code enforced.",
+      "dos": ["Wear long pants/skirts", "Cover shoulders"],
+      "donts": ["Wear ripped jeans", "Wear sleeveless shirts"],
+      "path": ["/p1-1.png", "/p1-2.png", "/p1-3.png"]
+    },
+    "p3": {
+      "context": "Luxury hotel etiquette.",
+      "dos": ["Smart casual dress in common areas"],
+      "donts": ["Swimwear in lobby"],
+      "path": ["/p3-1.png", "/p3-2.png"]
+    },
+    "p4": {
+      "context": "Historical residence.",
+      "dos": ["Remove shoes before entering house"],
+      "donts": ["Touch artifacts"],
+      "path": ["/p4-1.png", "/p4-2.png"]
+    },
+    "p5": {
+      "context": "Luxury hotel etiquette.",
+      "dos": ["Smart casual dress in common areas"],
+      "donts": ["Swimwear in lobby"],
+      "path": ["/p3-1.png", "/p3-2.png"]
+    },
+    "p6": {
+      "context": "Crowded public area.",
+      "dos": ["Keep belongings secure"],
+      "donts": ["Leave bags unattended"],
+      "path": ["/p6-1.png", "/p6-2.png"]
+    },
+    "p7": {
+      "context": "Luxury hotel etiquette.",
+      "dos": ["Smart casual dress in common areas"],
+      "donts": ["Swimwear in lobby"],
+      "path": ["/p3-1.png", "/p3-2.png"]
+    },
+    "p8": {
+      "context": "High altitude observation.",
+      "dos": ["Use provided shoe covers on glass"],
+      "donts": ["Drop items on glass tray"],
+      "path": ["/p8-1.png", "/p8-2.png"]
+    },
+    "p9": {
+      "context": "Standard hotel etiquette.",
+      "dos": ["Respect quiet hours"],
+      "donts": ["Smoke in rooms"],
+      "path": ["/p9-1.png", "/p9-2.png"]
+    },
+    "p10": {
+      "context": "Active religious shrine.",
+      "dos": ["Walk clockwise around shrine"],
+      "donts": ["Point feet at deities"],
+      "path": ["/p10-1.png", "/p10-2.png"]
+    },
+    "p11": {
+      "context": "Contemporary temple art.",
+      "dos": ["Keep moving on the bridge"],
+      "donts": ["Turn back on the bridge"],
+      "path": ["/p11-1.png", "/p11-2.png"]
+    },
+    "p12": {
+      "context": "Standard hotel etiquette.",
+      "dos": ["Respect quiet hours"],
+      "donts": ["Smoke in rooms"],
+      "path": ["/p9-1.png", "/p9-2.png"]
+    },
+    "p13": {
+      "context": "National park regulations.",
+      "dos": ["Stay on marked trails"],
+      "donts": ["Feed wildlife", "Pick flora"],
+      "path": ["/p13-1.png", "/p13-2.png"]
+    },
+    "p14": {
+      "context": "Luxury resort etiquette.",
+      "dos": ["Respect nature surroundings"],
+      "donts": ["Use drones without permission"],
+      "path": ["/p14-1.png", "/p14-2.png"]
+    },
+    "p15": {
+      "context": "Traditional village.",
+      "dos": ["Ask before photographing locals"],
+      "donts": ["Touch boiling salt pans"],
+      "path": ["/p15-1.png", "/p15-2.png"]
+    },
+    "p16": {
+      "context": "Rural nature stay.",
+      "dos": ["Minimize noise after 9 PM"],
+      "donts": ["Litter in the stream"],
+      "path": ["/p6-1.png", "/p6-2.png"]
+    },
+    "p17": {
+      "context": "Historical memorial site.",
+      "dos": ["Maintain respectful demeanor"],
+      "donts": ["Climb on fragile structures"],
+      "path": ["/p17-1.png", "/p17-2.png"]
+    },
+    "p18": {
+      "context": "River ecosystem stay.",
+      "dos": ["Wear life jackets on water"],
+      "donts": ["Throw trash in river"],
+      "path": ["/p18-1.png", "/p18-2.png"]
+    },
+    "p19": {
+      "context": "Ancient ruins.",
+      "dos": ["Rent a bicycle for exploring"],
+      "donts": ["Climb on Buddha statues"],
+      "path": ["/p19-1.png", "/p11-1.png"]
+    }
+  },
+
+  "graph": {
+    "p1": {
+      "nodes": [
+        { "id": "p1", "label": "Grand Palace", "group": "culture" },
+        { "id": "p2", "label": "Wat Arun", "group": "culture" },
+        { "id": "p5", "label": "The Siam", "group": "place" },
+        { "id": "p10", "label": "Erawan Shrine", "group": "culture" },
+        { "id": "p4", "label": "Jim Thompson House", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p1",
+          "target": "p2",
+          "relation": "FERRY_CROSSING",
+          "distanceKm": 1.0,
+          "confidence": 0.99
+        },
+        {
+          "source": "p1",
+          "target": "p5",
+          "relation": "RIVER_TAXI",
+          "distanceKm": 4.5,
+          "confidence": 0.85
+        },
+        {
+          "source": "p1",
+          "target": "p10",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 6.0,
+          "confidence": 0.8
+        },
+        {
+          "source": "p1",
+          "target": "p4",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 4.8,
+          "confidence": 0.82
+        }
+      ]
+    },
+    "p2": {
+      "nodes": [
+        { "id": "p2", "label": "Wat Arun", "group": "culture" },
+        { "id": "p1", "label": "Grand Palace", "group": "culture" },
+        { "id": "p3", "label": "Mandarin Oriental", "group": "place" },
+        { "id": "p6", "label": "Asiatique", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p2",
+          "target": "p1",
+          "relation": "FERRY_CROSSING",
+          "distanceKm": 1.0,
+          "confidence": 0.99
+        },
+        {
+          "source": "p2",
+          "target": "p3",
+          "relation": "RIVER_BOAT",
+          "distanceKm": 3.0,
+          "confidence": 0.95
+        },
+        {
+          "source": "p2",
+          "target": "p6",
+          "relation": "RIVER_BOAT",
+          "distanceKm": 4.5,
+          "confidence": 0.88
+        }
+      ]
+    },
+    "p3": {
+      "nodes": [
+        { "id": "p3", "label": "Mandarin Oriental", "group": "place" },
+        { "id": "p2", "label": "Wat Arun", "group": "culture" },
+        { "id": "p6", "label": "Asiatique", "group": "place" },
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p7", "label": "Capella Bangkok", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p3",
+          "target": "p2",
+          "relation": "RIVER_BOAT",
+          "distanceKm": 3.0,
+          "confidence": 0.95
+        },
+        {
+          "source": "p3",
+          "target": "p6",
+          "relation": "BOAT_SHUTTLE",
+          "distanceKm": 3.5,
+          "confidence": 0.85
+        },
+        {
+          "source": "p3",
+          "target": "p8",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 3.0,
+          "confidence": 0.88
+        },
+        {
+          "source": "p3",
+          "target": "p7",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 1.5,
+          "confidence": 0.9
+        }
+      ]
+    },
+    "p4": {
+      "nodes": [
+        { "id": "p4", "label": "Jim Thompson House", "group": "culture" },
+        { "id": "p10", "label": "Erawan Shrine", "group": "culture" },
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p1", "label": "Grand Palace", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p4",
+          "target": "p10",
+          "relation": "BTS_RIDE",
+          "distanceKm": 2.0,
+          "confidence": 0.9
+        },
+        {
+          "source": "p4",
+          "target": "p8",
+          "relation": "BTS_RIDE",
+          "distanceKm": 3.5,
+          "confidence": 0.85
+        },
+        {
+          "source": "p4",
+          "target": "p1",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 4.8,
+          "confidence": 0.82
+        }
+      ]
+    },
+    "p5": {
+      "nodes": [
+        { "id": "p5", "label": "The Siam", "group": "place" },
+        { "id": "p1", "label": "Grand Palace", "group": "culture" },
+        { "id": "p4", "label": "Jim Thompson House", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p5",
+          "target": "p1",
+          "relation": "RIVER_TAXI",
+          "distanceKm": 4.5,
+          "confidence": 0.85
+        },
+        {
+          "source": "p5",
+          "target": "p4",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 5.0,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "p6": {
+      "nodes": [
+        { "id": "p6", "label": "Asiatique", "group": "place" },
+        { "id": "p7", "label": "Capella Bangkok", "group": "place" },
+        { "id": "p9", "label": "Chatrium Riverside", "group": "place" },
+        { "id": "p3", "label": "Mandarin Oriental", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p6",
+          "target": "p7",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 1.0,
+          "confidence": 0.95
+        },
+        {
+          "source": "p6",
+          "target": "p9",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 1.2,
+          "confidence": 0.95
+        },
+        {
+          "source": "p6",
+          "target": "p3",
+          "relation": "BOAT_SHUTTLE",
+          "distanceKm": 3.5,
+          "confidence": 0.85
+        }
+      ]
+    },
+    "p7": {
+      "nodes": [
+        { "id": "p7", "label": "Capella Bangkok", "group": "place" },
+        { "id": "p6", "label": "Asiatique", "group": "place" },
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p9", "label": "Chatrium Riverside", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p7",
+          "target": "p6",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 1.0,
+          "confidence": 0.95
+        },
+        {
+          "source": "p7",
+          "target": "p8",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 3.5,
+          "confidence": 0.9
+        },
+        {
+          "source": "p7",
+          "target": "p9",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 0.5,
+          "confidence": 0.98
+        }
+      ]
+    },
+    "p8": {
+      "nodes": [
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p3", "label": "Mandarin Oriental", "group": "place" },
+        { "id": "p7", "label": "Capella Bangkok", "group": "place" },
+        { "id": "p10", "label": "Erawan Shrine", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p8",
+          "target": "p3",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 3.0,
+          "confidence": 0.88
+        },
+        {
+          "source": "p8",
+          "target": "p7",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 3.5,
+          "confidence": 0.9
+        },
+        {
+          "source": "p8",
+          "target": "p10",
+          "relation": "BTS_RIDE",
+          "distanceKm": 2.5,
+          "confidence": 0.92
+        }
+      ]
+    },
+    "p9": {
+      "nodes": [
+        { "id": "p9", "label": "Chatrium Riverside", "group": "place" },
+        { "id": "p6", "label": "Asiatique", "group": "place" },
+        { "id": "p7", "label": "Capella Bangkok", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p9",
+          "target": "p6",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 1.2,
+          "confidence": 0.95
+        },
+        {
+          "source": "p9",
+          "target": "p7",
+          "relation": "WALKING_DISTANCE",
+          "distanceKm": 0.5,
+          "confidence": 0.98
+        }
+      ]
+    },
+    "p10": {
+      "nodes": [
+        { "id": "p10", "label": "Erawan Shrine", "group": "culture" },
+        { "id": "p4", "label": "Jim Thompson House", "group": "culture" },
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p1", "label": "Grand Palace", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p10",
+          "target": "p4",
+          "relation": "BTS_RIDE",
+          "distanceKm": 2.0,
+          "confidence": 0.9
+        },
+        {
+          "source": "p10",
+          "target": "p8",
+          "relation": "BTS_RIDE",
+          "distanceKm": 2.5,
+          "confidence": 0.92
+        },
+        {
+          "source": "p10",
+          "target": "p1",
+          "relation": "TAXI_RIDE",
+          "distanceKm": 6.0,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "p11": {
+      "nodes": [
+        { "id": "p11", "label": "White Temple", "group": "culture" },
+        { "id": "p12", "label": "Le Meridien CR", "group": "place" },
+        { "id": "p13", "label": "Doi Inthanon", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p11",
+          "target": "p12",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 15.0,
+          "confidence": 0.92
+        },
+        {
+          "source": "p11",
+          "target": "p13",
+          "relation": "SIMILAR_REGION",
+          "distanceKm": 250.0,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "p12": {
+      "nodes": [
+        { "id": "p12", "label": "Le Meridien CR", "group": "place" },
+        { "id": "p11", "label": "White Temple", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p12",
+          "target": "p11",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 15.0,
+          "confidence": 0.92
+        }
+      ]
+    },
+    "p13": {
+      "nodes": [
+        { "id": "p13", "label": "Doi Inthanon", "group": "nature" },
+        { "id": "p14", "label": "Four Seasons CM", "group": "place" },
+        { "id": "p11", "label": "White Temple", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p13",
+          "target": "p14",
+          "relation": "DAY_TRIP",
+          "distanceKm": 85.0,
+          "confidence": 0.75
+        },
+        {
+          "source": "p13",
+          "target": "p11",
+          "relation": "SIMILAR_REGION",
+          "distanceKm": 250.0,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "p14": {
+      "nodes": [
+        { "id": "p14", "label": "Four Seasons CM", "group": "place" },
+        { "id": "p13", "label": "Doi Inthanon", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p14",
+          "target": "p13",
+          "relation": "DAY_TRIP",
+          "distanceKm": 85.0,
+          "confidence": 0.75
+        }
+      ]
+    },
+    "p15": {
+      "nodes": [
+        { "id": "p15", "label": "Bo Kluea", "group": "culture" },
+        { "id": "p16", "label": "Sapan Retreat", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p15",
+          "target": "p16",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 8.0,
+          "confidence": 0.95
+        }
+      ]
+    },
+    "p16": {
+      "nodes": [
+        { "id": "p16", "label": "Sapan Retreat", "group": "nature" },
+        { "id": "p15", "label": "Bo Kluea", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p16",
+          "target": "p15",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 8.0,
+          "confidence": 0.95
+        }
+      ]
+    },
+    "p17": {
+      "nodes": [
+        { "id": "p17", "label": "Death Railway", "group": "culture" },
+        { "id": "p18", "label": "FloatHouse River Kwai", "group": "nature" },
+        { "id": "p19", "label": "Sukhothai Park", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p17",
+          "target": "p18",
+          "relation": "BOAT_TRANSFER",
+          "distanceKm": 20.0,
+          "confidence": 0.88
+        },
+        {
+          "source": "p17",
+          "target": "p19",
+          "relation": "HISTORICAL_THEME",
+          "distanceKm": 400.0,
+          "confidence": 0.5
+        }
+      ]
+    },
+    "p18": {
+      "nodes": [
+        { "id": "p18", "label": "FloatHouse River Kwai", "group": "nature" },
+        { "id": "p17", "label": "Death Railway", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p18",
+          "target": "p17",
+          "relation": "BOAT_TRANSFER",
+          "distanceKm": 20.0,
+          "confidence": 0.88
+        }
+      ]
+    },
+    "p19": {
+      "nodes": [
+        { "id": "p19", "label": "Sukhothai Park", "group": "culture" },
+        { "id": "p20", "label": "Sriwilai Resort", "group": "place" },
+        { "id": "p17", "label": "Death Railway", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p19",
+          "target": "p20",
+          "relation": "CYCLING_DISTANCE",
+          "distanceKm": 1.5,
+          "confidence": 0.99
+        },
+        {
+          "source": "p19",
+          "target": "p17",
+          "relation": "HISTORICAL_THEME",
+          "distanceKm": 400.0,
+          "confidence": 0.5
+        }
+      ]
+    },
+    "p20": {
+      "nodes": [
+        { "id": "p20", "label": "Sriwilai Resort", "group": "place" },
+        { "id": "p19", "label": "Sukhothai Park", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p20",
+          "target": "p19",
+          "relation": "CYCLING_DISTANCE",
+          "distanceKm": 1.5,
+          "confidence": 0.99
+        }
+      ]
+    },
+    "p21": {
+      "nodes": [
+        { "id": "p21", "label": "Sanctuary Truth", "group": "culture" },
+        { "id": "p22", "label": "Cape Dara", "group": "place" },
+        { "id": "p8", "label": "SkyWalk", "group": "place" },
+        { "id": "p25", "label": "Khao Yai", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p21",
+          "target": "p22",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 3.0,
+          "confidence": 0.92
+        },
+        {
+          "source": "p21",
+          "target": "p8",
+          "relation": "DAY_TRIP",
+          "distanceKm": 140.0,
+          "confidence": 0.75
+        },
+        {
+          "source": "p21",
+          "target": "p25",
+          "relation": "WEEKEND_ROUTE",
+          "distanceKm": 200.0,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "p22": {
+      "nodes": [
+        { "id": "p22", "label": "Cape Dara", "group": "place" },
+        { "id": "p21", "label": "Sanctuary Truth", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p22",
+          "target": "p21",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 3.0,
+          "confidence": 0.92
+        }
+      ]
+    },
+    "p23": {
+      "nodes": [
+        { "id": "p23", "label": "Maya Bay", "group": "nature" },
+        { "id": "p24", "label": "Rayavadee", "group": "nature" },
+        { "id": "p27", "label": "Promthep", "group": "place" },
+        { "id": "p29", "label": "Khao Sok", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p23",
+          "target": "p24",
+          "relation": "BOAT_TOUR",
+          "distanceKm": 40.0,
+          "confidence": 0.85
+        },
+        {
+          "source": "p23",
+          "target": "p27",
+          "relation": "FERRY_CROSSING",
+          "distanceKm": 60.0,
+          "confidence": 0.7
+        },
+        {
+          "source": "p23",
+          "target": "p29",
+          "relation": "ISLAND_HOPPING",
+          "distanceKm": 120.0,
+          "confidence": 0.65
+        }
+      ]
+    },
+    "p24": {
+      "nodes": [
+        { "id": "p24", "label": "Rayavadee", "group": "nature" },
+        { "id": "p23", "label": "Maya Bay", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p24",
+          "target": "p23",
+          "relation": "BOAT_TOUR",
+          "distanceKm": 40.0,
+          "confidence": 0.85
+        }
+      ]
+    },
+    "p25": {
+      "nodes": [
+        { "id": "p25", "label": "Khao Yai", "group": "nature" },
+        { "id": "p26", "label": "Muthi Maya", "group": "nature" },
+        { "id": "p21", "label": "Sanctuary Truth", "group": "culture" }
+      ],
+      "edges": [
+        {
+          "source": "p25",
+          "target": "p26",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 12.0,
+          "confidence": 0.89
+        },
+        {
+          "source": "p25",
+          "target": "p21",
+          "relation": "WEEKEND_ROUTE",
+          "distanceKm": 200.0,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "p26": {
+      "nodes": [
+        { "id": "p26", "label": "Muthi Maya", "group": "nature" },
+        { "id": "p25", "label": "Khao Yai", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p26",
+          "target": "p25",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 12.0,
+          "confidence": 0.89
+        }
+      ]
+    },
+    "p27": {
+      "nodes": [
+        { "id": "p27", "label": "Promthep", "group": "place" },
+        { "id": "p28", "label": "Sri Panwa", "group": "place" },
+        { "id": "p23", "label": "Maya Bay", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p27",
+          "target": "p28",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 25.0,
+          "confidence": 0.8
+        },
+        {
+          "source": "p27",
+          "target": "p23",
+          "relation": "FERRY_CROSSING",
+          "distanceKm": 60.0,
+          "confidence": 0.7
+        }
+      ]
+    },
+    "p28": {
+      "nodes": [
+        { "id": "p28", "label": "Sri Panwa", "group": "place" },
+        { "id": "p27", "label": "Promthep", "group": "place" }
+      ],
+      "edges": [
+        {
+          "source": "p28",
+          "target": "p27",
+          "relation": "DRIVING_DISTANCE",
+          "distanceKm": 25.0,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "p29": {
+      "nodes": [
+        { "id": "p29", "label": "Khao Sok", "group": "nature" },
+        { "id": "p30", "label": "500 Rai", "group": "nature" },
+        { "id": "p23", "label": "Maya Bay", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p29",
+          "target": "p30",
+          "relation": "BOAT_TRANSFER",
+          "distanceKm": 15.0,
+          "confidence": 0.98
+        },
+        {
+          "source": "p29",
+          "target": "p23",
+          "relation": "ISLAND_HOPPING",
+          "distanceKm": 120.0,
+          "confidence": 0.65
+        }
+      ]
+    },
+    "p30": {
+      "nodes": [
+        { "id": "p30", "label": "500 Rai", "group": "nature" },
+        { "id": "p29", "label": "Khao Sok", "group": "nature" }
+      ],
+      "edges": [
+        {
+          "source": "p30",
+          "target": "p29",
+          "relation": "BOAT_TRANSFER",
+          "distanceKm": 15.0,
+          "confidence": 0.98
+        }
+      ]
+    }
+  },
+
+  "routes": [
+    {
+      "id": "r1",
+      "name": "BKK Heritage Trail",
+      "distanceKm": 5,
+      "isHighlight": true,
+      "stops": [
+        {
+          "dayIndex": 1,
+          "stopOrder": 1,
+          "tatPoi": { "id": "p6", "name": "Wat Phra Kaew" }
+        },
+        {
+          "dayIndex": 1,
+          "stopOrder": 2,
+          "tatPoi": { "id": "p1", "name": "Wat Arun" }
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Chiang Mai Foodie",
+      "distanceKm": 12,
+      "isHighlight": false,
+      "stops": [
+        {
+          "dayIndex": 1,
+          "stopOrder": 1,
+          "tatPoi": { "id": "p16", "name": "One Nimman" }
+        },
+        {
+          "dayIndex": 1,
+          "stopOrder": 2,
+          "tatPoi": { "id": "p21", "name": "Khao Soi Mae Sai" }
+        }
+      ]
+    }
+  ]
+}
