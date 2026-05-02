@@ -1358,7 +1358,23 @@ export const v1Routes = new Elysia({ prefix: "/api/v1" })
   )
   .get("/admin/risk-flags", async () => {
     if (isMockMode()) {
-      const complaints = listMockReports({ limit: 200 }).filter((entry) => entry.severity >= 4);
+      const dataset = getMockDataset();
+      const placeById = new Map(dataset.places.map((p) => [p.id, p]));
+      const raw = listMockReports({ limit: 200 }).filter((entry) => entry.severity >= 4);
+      const complaints = raw.map((complaint) => {
+        const place = complaint.destinationId ? placeById.get(complaint.destinationId) : null;
+        return {
+          ...complaint,
+          destination: place
+            ? {
+                id: place.id,
+                name: place.name,
+                nameEn: place.nameEn || place.name,
+                province: place.province,
+              }
+            : null,
+        };
+      });
       return { flaggedAiLogs: [], complaints };
     }
     const [flaggedAiLogs, complaints] = await Promise.all([

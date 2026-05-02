@@ -141,14 +141,22 @@ export function listMockPlaces(params: {
   }
 
   return {
-    data: rows.slice(skip, skip + limit),
+    data: rows.slice(skip, skip + limit).map((p) => ({
+      ...p,
+      thumbnailUrl: p.thumbnailUrl || `${p.id}.jpg`,
+    })),
     paging: { page, limit, returned: Math.min(limit, Math.max(0, rows.length - skip)) },
   };
 }
 
 export function getMockPlaceById(id: string) {
   const dataset = getMockDataset();
-  return dataset.places.find((place) => place.id === id || place.sourceId === id) || null;
+  const place = dataset.places.find((place) => place.id === id || place.sourceId === id);
+  if (!place) return null;
+  return {
+    ...place,
+    thumbnailUrl: place.thumbnailUrl || `${place.id}.jpg`,
+  };
 }
 
 export function getMockGraphByPlaceId(id: string): MockGraph {
@@ -183,7 +191,7 @@ export function getMockDetourCandidates(excludeNameEn?: string) {
       latitude: entry.latitude,
       longitude: entry.longitude,
       kind: entry.kind,
-      thumbnailUrl: entry.thumbnailUrl,
+      thumbnailUrl: entry.thumbnailUrl || `${entry.id}.jpg`,
       nameEn: entry.nameEn,
       name: entry.name,
       province: entry.province,

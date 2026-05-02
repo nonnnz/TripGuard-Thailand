@@ -221,12 +221,14 @@ function mapDiscoveryPlace(item: any): PlaceCardVM {
         "Unknown province",
     ),
     provinceNameTh: item?.province ? String(item.province) : undefined,
-    imageUrl: String(
-      item?.thumbnailUrl ||
-        item?.thumbnail_url ||
-        item?.imageUrl ||
-        "/hero.png",
-    ),
+    imageUrl: (() => {
+      const thumb = item?.thumbnailUrl || item?.thumbnail_url || item?.imageUrl;
+      if (thumb) {
+        if (thumb.startsWith("http") || thumb.startsWith("/")) return thumb;
+        return `/place/${thumb}`;
+      }
+      return item?.id ? `/place/${item.id}.jpg` : "/hero.png";
+    })(),
     trustScore,
     crowdScore,
     seasonFitScore,

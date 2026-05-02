@@ -29,7 +29,44 @@ type MockReport = {
 
 const users = new Map<string, MockUser>();
 const itineraries = new Map<string, MockItinerary>();
-const reports = new Map<string, MockReport>();
+const reports = new Map<string, MockReport>([
+  [
+    "mock:report:1",
+    {
+      id: "mock:report:1",
+      destinationId: "p1",
+      category: "safety",
+      severity: 5,
+      source: "user_report",
+      description: "Reported aggressive touting and unauthorized guide fees near the entrance.",
+      reportedAt: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(),
+    },
+  ],
+  [
+    "mock:report:2",
+    {
+      id: "mock:report:2",
+      destinationId: "p3",
+      category: "overcharge",
+      severity: 4,
+      source: "user_report",
+      description: "Menu prices did not match the final bill. Charged 3x the listed price for seafood.",
+      reportedAt: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(),
+    },
+  ],
+  [
+    "mock:report:3",
+    {
+      id: "mock:report:3",
+      destinationId: "p11",
+      category: "misleading",
+      severity: 4,
+      source: "user_report",
+      description: "Place was closed for renovation but still taking bookings through external platforms.",
+      reportedAt: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(),
+    },
+  ],
+]);
 
 function nowIso() {
   return new Date().toISOString();

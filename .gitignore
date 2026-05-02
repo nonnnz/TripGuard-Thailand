@@ -72,7 +72,8 @@ coverage/
 .nyc_output/
 
 # docs
-/docs
+/docs/*
+!/docs/screenshots/
 
 # handata
 apps/etl/hand-data/*.json
@@ -88,3 +89,4 @@ apps/etl/hand-data/*.csv
 .agents
 
 !apps/api/src/mocks/*
+!apps/web/docs/screenshots/web/*
